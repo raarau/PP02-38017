@@ -34,7 +34,7 @@ namespace PP02_38017
             else
             {
 
-                Console.WriteLine("Escolha o modo de pagamento:");
+                Console.WriteLine("\nEscolha o modo de pagamento:");
                 Console.WriteLine("1 - A vista");
                 Console.WriteLine("2 - Parcelado em x2");
                 Console.WriteLine("3 - Parcelado em x3");
@@ -66,7 +66,7 @@ namespace PP02_38017
                         parcela = total / 3;
                         Console.WriteLine("\nO valor de sua compra é: {0:C}", calculaQta);
                         Console.WriteLine("E recebeu um desconto de 12% valor total a pagar: {0:C}", total);
-                        Console.WriteLine("Você devera pagar 3x parcelas de: {0:C}", parcela);
+                        Console.WriteLine("\nVocê devera pagar 3x parcelas de: {0:C}", parcela);
                         break;
 
                     default:
